@@ -1,0 +1,26 @@
+/* Custom styles for Idea Tracker */
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#ideasList .card {
+  transition: box-shadow 0.2s;
+}
+
+#ideasList .card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.08);
+}
